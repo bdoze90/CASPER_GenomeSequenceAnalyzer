@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0426682E20EEC20F00BD625C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0426682D20EEC20F00BD625C /* main.cpp */; };
+		0426683620EEC43D00BD625C /* SeqEval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0426683420EEC43D00BD625C /* SeqEval.cpp */; };
+		0426683920EEC45000BD625C /* Analyzer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0426683720EEC45000BD625C /* Analyzer.cpp */; };
+		0426683C20EEC46900BD625C /* Report.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0426683A20EEC46900BD625C /* Report.cpp */; };
+		0426683F20EEC47900BD625C /* GenomeReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0426683D20EEC47900BD625C /* GenomeReader.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,15 @@
 /* Begin PBXFileReference section */
 		0426682A20EEC20F00BD625C /* CASPER_GenomeSequenceAnalyzer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CASPER_GenomeSequenceAnalyzer; sourceTree = BUILT_PRODUCTS_DIR; };
 		0426682D20EEC20F00BD625C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0426683420EEC43D00BD625C /* SeqEval.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SeqEval.cpp; sourceTree = "<group>"; };
+		0426683520EEC43D00BD625C /* SeqEval.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SeqEval.hpp; sourceTree = "<group>"; };
+		0426683720EEC45000BD625C /* Analyzer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Analyzer.cpp; sourceTree = "<group>"; };
+		0426683820EEC45000BD625C /* Analyzer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Analyzer.hpp; sourceTree = "<group>"; };
+		0426683A20EEC46900BD625C /* Report.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Report.cpp; sourceTree = "<group>"; };
+		0426683B20EEC46900BD625C /* Report.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Report.hpp; sourceTree = "<group>"; };
+		0426683D20EEC47900BD625C /* GenomeReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GenomeReader.cpp; sourceTree = "<group>"; };
+		0426683E20EEC47900BD625C /* GenomeReader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GenomeReader.hpp; sourceTree = "<group>"; };
+		0426684020EEC4AD00BD625C /* MySeqs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySeqs.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,15 @@
 			isa = PBXGroup;
 			children = (
 				0426682D20EEC20F00BD625C /* main.cpp */,
+				0426683420EEC43D00BD625C /* SeqEval.cpp */,
+				0426683520EEC43D00BD625C /* SeqEval.hpp */,
+				0426683720EEC45000BD625C /* Analyzer.cpp */,
+				0426683820EEC45000BD625C /* Analyzer.hpp */,
+				0426683A20EEC46900BD625C /* Report.cpp */,
+				0426683B20EEC46900BD625C /* Report.hpp */,
+				0426683D20EEC47900BD625C /* GenomeReader.cpp */,
+				0426683E20EEC47900BD625C /* GenomeReader.hpp */,
+				0426684020EEC4AD00BD625C /* MySeqs.h */,
 			);
 			path = CASPER_GenomeSequenceAnalyzer;
 			sourceTree = "<group>";
@@ -119,6 +141,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0426682E20EEC20F00BD625C /* main.cpp in Sources */,
+				0426683F20EEC47900BD625C /* GenomeReader.cpp in Sources */,
+				0426683620EEC43D00BD625C /* SeqEval.cpp in Sources */,
+				0426683920EEC45000BD625C /* Analyzer.cpp in Sources */,
+				0426683C20EEC46900BD625C /* Report.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
