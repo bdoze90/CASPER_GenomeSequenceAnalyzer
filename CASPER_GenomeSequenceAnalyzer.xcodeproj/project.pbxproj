@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0426682E20EEC20F00BD625C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0426682D20EEC20F00BD625C /* main.cpp */; };
-		0426683620EEC43D00BD625C /* SeqEval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0426683420EEC43D00BD625C /* SeqEval.cpp */; };
 		0426683920EEC45000BD625C /* Analyzer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0426683720EEC45000BD625C /* Analyzer.cpp */; };
 		0426683C20EEC46900BD625C /* Report.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0426683A20EEC46900BD625C /* Report.cpp */; };
 		0426683F20EEC47900BD625C /* GenomeReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0426683D20EEC47900BD625C /* GenomeReader.cpp */; };
@@ -29,7 +28,6 @@
 /* Begin PBXFileReference section */
 		0426682A20EEC20F00BD625C /* CASPER_GenomeSequenceAnalyzer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CASPER_GenomeSequenceAnalyzer; sourceTree = BUILT_PRODUCTS_DIR; };
 		0426682D20EEC20F00BD625C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		0426683420EEC43D00BD625C /* SeqEval.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SeqEval.cpp; sourceTree = "<group>"; };
 		0426683520EEC43D00BD625C /* SeqEval.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SeqEval.hpp; sourceTree = "<group>"; };
 		0426683720EEC45000BD625C /* Analyzer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Analyzer.cpp; sourceTree = "<group>"; };
 		0426683820EEC45000BD625C /* Analyzer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Analyzer.hpp; sourceTree = "<group>"; };
@@ -71,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				0426682D20EEC20F00BD625C /* main.cpp */,
-				0426683420EEC43D00BD625C /* SeqEval.cpp */,
 				0426683520EEC43D00BD625C /* SeqEval.hpp */,
 				0426683720EEC45000BD625C /* Analyzer.cpp */,
 				0426683820EEC45000BD625C /* Analyzer.hpp */,
@@ -142,7 +139,6 @@
 			files = (
 				0426682E20EEC20F00BD625C /* main.cpp in Sources */,
 				0426683F20EEC47900BD625C /* GenomeReader.cpp in Sources */,
-				0426683620EEC43D00BD625C /* SeqEval.cpp in Sources */,
 				0426683920EEC45000BD625C /* Analyzer.cpp in Sources */,
 				0426683C20EEC46900BD625C /* Report.cpp in Sources */,
 			);
